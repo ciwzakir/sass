@@ -1,0 +1,32 @@
+
+.nav-sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-brand {
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+nav {
+    ul {
+        display: flex;
+        list-style: none;
+        li {
+            list-style: none;
+            margin-left: 20px;
+
+            a {
+                color: #000;
+                text-decoration: none;
+                padding: 10px;
+                display: block;
+                &:hover{
+                    color: teal;
+                    background-color: tomato;
+                }
+            }
+        }
+    }
+}
